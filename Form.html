@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="styleform.css">
+    </head>
+    <div class="container">
+    <header class="head">
+        <img src="./Logo.png" alt="Company Icon" class="gambar">
+
+        <div class="side">
+            <h1>Institut Teknologi Sumatera</h1>
+            <h3>Smart Friendly And Forest Campus From Sumatera</h3>
+        </div>
+    </header>
+    <body>
+        <div class="sidebar">
+            <a href="./Index.html">Home</a>
+            <a href="./Form.html" class="active" >Form</a>
+            <a href="./Table.html">Table</a>
+        </div>
+        <div class="content">
+            <section class="form">
+                <h2>Formulir Pendaftaran</h2>
+                <form action="Form_send.php" method="GET" formenctype="mutipart/form-data">
+                    <label for="name">Nama:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="nim">NIM:</label><br>
+                    <input type="text" id="nim" name="nim"><br>
+                    <label for="prodi">Program Studi:</label><br>
+                    <input type="text" id="prodi" name="prodi"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email"><br>
+                    <label for="pass">Password:</label><br>
+                    <input type="text" id="pass" name="pass"><br>
+                    <label for="gender">Jenis Kelamin:</label><br>
+                    <select name="gender">
+                        <option value="man">Laki-laki</option>
+                        <option value="woman">Perempuan</option>
+                    </select><br>
+                    <label for="alamat">Alamat:</label><br>
+                    <input type="text" id="alamat" name="alamat"><br>
+                    <label for="bday">Tangal Lahir:</label><br>
+                    <input type="text" id="bday" name="bday"><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </div>
+    </body>
+    <footer>
+        <p>Copyright© Institut Teknologi Sumatera 2023</p>
+        <p><a href="mailto:kevinsien.120140174@student.itera.ac.id">kevinsien.120140174@student.itera.ac.id"</a></p>
+    </footer>
+</html>
